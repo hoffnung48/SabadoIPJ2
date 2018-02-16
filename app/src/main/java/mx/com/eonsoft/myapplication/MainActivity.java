@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 texto.setText("Hola GitHub");
+                Toast.makeText(MainActivity.this,"Se cambio el mensaje en el textView",Toast.LENGTH_SHORT).show();
+
             }
         });
 
